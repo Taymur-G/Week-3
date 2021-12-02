@@ -1,0 +1,29 @@
+body {
+    background-color: #FAFAF8;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container {
+    background-color: white;
+    margin: 25px;
+    border-radius: 25%;
+    box-shadow: 3px 3px 5px black;
+    padding: 5px;
+    width: 100px;
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

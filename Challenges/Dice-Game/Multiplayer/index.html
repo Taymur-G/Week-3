@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div>
+                <h1>Dice Game</h1>
+            </div>
+        </div>
+        <div class="row-col">
+            <div class="border center">
+                <div>
+                    <h2 id=status>Awaiting for game to start...</h2>
+                </div>
+                <div class="row">
+                    <div>
+                        <h2>Total Score: </h2>
+                    </div>
+                    <div>
+                        <h2 id="score"> 0 </h2>
+                    </div>
+                </div>
+                <div>
+                    <h2 id="won" class="hidden">Congratulations you won!</h2>
+                    <h2 id="lose" class="hidden">You lose</h2>
+                </div>
+                <div>
+                    <img id="image">
+                </div>
+                <div class="pd">
+                    <button id="start">Start Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
